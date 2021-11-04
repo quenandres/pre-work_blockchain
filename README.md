@@ -19,3 +19,7 @@ Lenguaje de programación mas popular, diseñado para interactuar con la EVM(Eth
 * https://solidity-by-example.org/
 * https://openzeppelin.com/contracts/
 * https://cryptozombies.io/es/ (Juego)
+
+# Uso de wallets: Metamask
+Se puede descargar en el telefono, pero tambien existen extensiones para el explorador
+
