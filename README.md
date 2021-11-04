@@ -13,3 +13,9 @@
     - Truggle Suite: Sistemas mas robustos, smart contracts con mas dependencias.
     - HyperLedger: Entendimiento de blockchain, permite entender como es el funcionamiento de los nodos
 
+# Solidity
+Lenguaje de programación mas popular, diseñado para interactuar con la EVM(Ethereum virtual machine). 
+* https://ethereum.org/
+* https://solidity-by-example.org/
+* https://openzeppelin.com/contracts/
+* https://cryptozombies.io/es/ (Juego)
