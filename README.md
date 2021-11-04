@@ -26,3 +26,6 @@ Se puede descargar en el telefono, pero tambien existen extensiones para el expl
 # Ropsten y Rinkeby
 Ambas son testnet de las mas utilizadas, tambien se pueden tener redes locales.
 - ropsten ethereum faucet (Para pedir eth gratuitos para moverlos en la red de prueba)
+
+# RemixIDE (Integrated development environment)
+Es la opcion ideal para comenzar con solidity
