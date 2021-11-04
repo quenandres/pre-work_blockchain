@@ -23,3 +23,6 @@ Lenguaje de programación mas popular, diseñado para interactuar con la EVM(Eth
 # Uso de wallets: Metamask
 Se puede descargar en el telefono, pero tambien existen extensiones para el explorador
 
+# Ropsten y Rinkeby
+Ambas son testnet de las mas utilizadas, tambien se pueden tener redes locales.
+- ropsten ethereum faucet (Para pedir eth gratuitos para moverlos en la red de prueba)
