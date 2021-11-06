@@ -29,3 +29,28 @@ Ambas son testnet de las mas utilizadas, tambien se pueden tener redes locales.
 
 # RemixIDE (Integrated development environment)
 Es la opcion ideal para comenzar con solidity
+
+# Truffle Suite
+Es un entorno de desarrollo que facilita la creacion de apps basadas en tecnologias blockchain, permite compilar, deplegar y desarrollar frontend
+
+ - Truffle
+ - Ganache: Brinda la opcion de tener una blockchain para desplegar los contratos inteligentes.
+ - Drizzle: Coleccion de librerias para frontend, que facilita la creacion de aplicaciones, se instala dentro de la carpeta 
+ ``` npm install --save @drizzle/store```
+ 
+ ### Crear un nuevo proyecto
+ ```truffle init```
+
+ ---
+ - Carpetas
+    - contracts: Se deben crear los contratos de nuestro proyecto (Solidity)
+    - migrations: Se escriben los scripts para desplegar los contratos (JS)
+    - test: Para nuestra pruebas al codigo (JS)
+    - truffle-config.js : Archivo de configuracion (JS)
+
+1. truffle console --network development
+2. web3.eth.getBlock(0) (Nos despliega el estado del bloque 0)
+3. Se compilan los contratos (compile)
+4. Se despliegan (migrate)
+5. const instance = await HelloBlockchain.deployed() (Se instancia la funcion)
+6. instance.sayHi() || instance.sayHi.call() (Se ejecuta la función)
