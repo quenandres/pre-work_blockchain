@@ -1,13 +1,10 @@
 
 
-- Lenguajes y herramientas para el desarrollo de blockchain
-5/14
-
+## Lenguajes y herramientas para el desarrollo de blockchain
     - C++
     - Python
     - JS
     - Solidity (Smart contracts)
-
     - RemixIDE: Es una aplicacion web donde se pueden hacer simulaciones y compilaciones, tambien se puede comunicar con otras blockchain
     - VSC
     - Truggle Suite: Sistemas mas robustos, smart contracts con mas dependencias.
@@ -48,9 +45,32 @@ Es un entorno de desarrollo que facilita la creacion de apps basadas en tecnolog
     - test: Para nuestra pruebas al codigo (JS)
     - truffle-config.js : Archivo de configuracion (JS)
 
-1. truffle console --network development
-2. web3.eth.getBlock(0) (Nos despliega el estado del bloque 0)
-3. Se compilan los contratos (compile)
-4. Se despliegan (migrate)
-5. const instance = await HelloBlockchain.deployed() (Se instancia la funcion)
-6. instance.sayHi() || instance.sayHi.call() (Se ejecuta la función)
+---------------------------
+
+| Step | Description | command |
+|------|-------------|---------|
+| 1    |truffle console --network development| Se conecta a la red de development |
+| 2    |web3.eth.getBlock(0) |Nos despliega el estado del bloque 0
+| 3    |Se compilan los contratos |compile
+| 4    |Se despliegan |migrate
+| 5    |const instance = await HelloBlockchain.deployed()| Se instancia la funcion
+| 6    |instance.sayHi() O instance.sayHi.call()| Se ejecuta la función
+
+
+## HARDHAT
+Es una herramienta para desarrollar localmente en solidity, permite hacer test y desplegar, brinda una red de prueba llamada hardhat network, con mejoras para descubrir errores en contratos inteligentes
+
+- Cursos: Dapps aplicaciones decentralizadas y web3
+
+|Command|Description|
+|-------|-------|
+|npm install --save-dev hardhat|Instala hardhat|
+|npx hardhat|comprueba instalacion|
+| npm i @nomiclabs/hardhat-waffle | Instalaciones |
+  npm install --save-dev "@nomiclabs/hardhat-ethers@^2.0.0" "ethers@^5.0.0" "ethereum-waffle@^3.2.0"| Instalaciones |
+| npx hardhat accounts | Muestra todas las cuentas que tenemos en la red de prueba |
+| npx hardhat compile | Compila los contratos |
+|npx hardhat run script/sample-script.js|Se despliega el contrato en la red local con el archivo ```script/sample-script.js``` Muestra mensaje Hello, Hardhat y muestra la direccion del contrato|
+
+Algo poderoso es la capacidad de hacer un fork de la main net de ethereum, asi que podra simular como se comportaran los contratos en la main net con la red local, ademas permite interactuar con protocolos ya desplegados. 
+*Documentacion* [Hardhat](https://www.hardhat.org)
