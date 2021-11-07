@@ -58,7 +58,9 @@ Es un entorno de desarrollo que facilita la creacion de apps basadas en tecnolog
 
 
 ## HARDHAT
-Es una herramienta para desarrollar localmente en solidity, permite hacer test y desplegar, brinda una red de prueba llamada hardhat network, con mejoras para descubrir errores en contratos inteligentes
+>Es una herramienta para desarrollar localmente en solidity, permite hacer test y desplegar, brinda una red de prueba llamada hardhat network, con mejoras para descubrir errores en contratos inteligentes.
+Los proyectos de Hardhat, son proyectos de NPM con el paquete Hardhat instalado que se ayuda de otros plugins para incrementar sus funcionalidades.
+
 
 - Cursos: Dapps aplicaciones decentralizadas y web3
 
@@ -72,5 +74,13 @@ Es una herramienta para desarrollar localmente en solidity, permite hacer test y
 | npx hardhat compile | Compila los contratos |
 |npx hardhat run script/sample-script.js|Se despliega el contrato en la red local con el archivo ```script/sample-script.js``` Muestra mensaje Hello, Hardhat y muestra la direccion del contrato|
 
-Algo poderoso es la capacidad de hacer un fork de la main net de ethereum, asi que podra simular como se comportaran los contratos en la main net con la red local, ademas permite interactuar con protocolos ya desplegados. 
+>Algo poderoso es la capacidad de hacer un fork de la main net de ethereum, asi que podra simular como se comportaran los contratos en la main net con la red local, ademas permite interactuar con protocolos ya desplegados. 
 *Documentacion* [Hardhat](https://www.hardhat.org)
+
+
+## Web3.js
+>Es una coleccion de librerias que te permite interactuar de manera local o remote con tu nodo de Ethereum utilizando el protocolo HTTP, IPC o WebSocket.
+Desde RemixIDE se pueden encontrar los archivos de ejemplos de ejecución de Web3.js
+- [web3.js](https://web3js.readthedocs.io/en/v1.5.2/)
+- [web3 github](https://github.com/ChainSafe/web3.js)
+
